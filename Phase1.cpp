@@ -104,7 +104,9 @@ void GenerateCode(cNode* root, string code)
         cout << "Character: " << root->Character << " -> Code: " << root->code << endl;
     }
 
-bolbol7ayran
+
+
+
     // Recur for left and right children
     GenerateCode(root->pleft, code + "0");
     GenerateCode(root->pright, code + "1");
