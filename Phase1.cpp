@@ -109,7 +109,6 @@ void GenerateCode(cNode* root, string code)
     GenerateCode(root->pright, code + "1");
 }
 
-
 cNode* Huffman_Tree(SortedList& l)
 {
     while (l.pHead->pNext != NULL) // Combine nodes until one remains
