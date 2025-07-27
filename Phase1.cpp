@@ -179,6 +179,7 @@ void Frequency(string str)
     cout << "Generated Huffman GenerateCode:\n";
     GenerateCode(root, "");
 }
+//ت
 int main()
 {
 
